@@ -1,0 +1,131 @@
+.gray {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
+#experienceImageSection {
+    margin-bottom: 0px;
+}
+
+#experienceRatingSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+}
+
+#experienceRatingSection>* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#experienceStarImage {
+    height: 15px;
+    width: auto;
+}
+
+#experienceRating,
+#experienceCount,
+#experienceDot,
+#experienceLocation {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#experienceTitle {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#experiencePriceSection {
+    display: flex;
+    flex-direction: row;
+}
+
+#experiencePriceSection>* {
+    margin-top: 5px;
+}
+
+#experiencePriceSeparator {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    #experienceImageSection {
+        position: relative;
+        margin-top: 5%;
+    }
+
+    #experienceImage {
+        width: auto;
+        height: 30vh;
+        border-radius: 10px;
+    }
+
+    #experienceStatus {
+        width: fit-content;
+        background-color: white;
+        position: absolute;
+        padding-left: 0.75%;
+        padding-right: 0.75%;
+        padding-top: 0.25%;
+        padding-bottom: 0.25%;
+        border-radius: 5px;
+        top: 0.01vh;
+        left: 2.5vw;
+    }
+
+    #experienceRating,
+    #experienceCount,
+    #experienceDot,
+    #experienceLocation,
+    #experienceTitle,
+    #experiencePriceSection {
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .experienceContainer {
+        margin-left: 7.5%;
+    }
+
+    #experienceImageSection {
+        position: relative;
+    }
+
+    #experienceImage {
+        border-radius: 10px;
+    }
+
+    #experienceStatus {
+        width: fit-content;
+        background-color: white;
+        position: absolute;
+        padding-left: 0.75%;
+        padding-right: 0.75%;
+        padding-top: 0.25%;
+        padding-bottom: 0.25%;
+        border-radius: 5px;
+        top: 0.1vh;
+        left: 0.5vw;
+    }
+
+    #experienceRating,
+    #experienceCount,
+    #experienceDot,
+    #experienceLocation {
+        font-size: medium;
+    }
+}
