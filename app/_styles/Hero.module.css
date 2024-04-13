@@ -1,0 +1,66 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+#heroImage {
+    align-self: center;
+}
+
+#heroContent {
+    margin-top: 1%;
+}
+
+#heroHeading {
+    margin-bottom: 0px;
+}
+
+#heroText {
+    margin-top: 1vh;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 900px) {
+    .heroContainer {
+        margin-top: 7.5%;
+    }
+
+    #heroImage {
+        width: 80vw;
+        height: auto;
+    }
+
+    #heroHeading {
+        font-size: 30px;
+    }
+
+    #heroText {
+        width: 88vw;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .heroContainer {
+        margin-top: 2.5%;
+    }
+
+    #heroImage {
+        width: auto;
+        height: 60vh;
+    }
+
+    #heroHeading {
+        font-size: 68px;
+    }
+
+    #heroText {
+        width: 28vw;
+        font-size: 24px;
+    }
+
+
+    #heroContent {
+        margin-left: 2.5%;
+    }
+}
