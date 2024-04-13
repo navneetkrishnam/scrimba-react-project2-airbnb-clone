@@ -1,0 +1,28 @@
+.headerContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 5px 15px rgb(235, 235, 235);
+}
+
+@media screen and (max-width: 900px) {
+    #headerLogo {
+        width: auto;
+        height: 4vh;
+        padding: 1%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 5vw;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #headerLogo {
+        width: auto;
+        height: 4vh;
+        padding: 1%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 2vw;
+    }
+}

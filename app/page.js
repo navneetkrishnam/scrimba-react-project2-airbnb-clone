@@ -1,5 +1,9 @@
+import Header from "./_components/Header/Header"
+
+import headerLogo from "./_assets/images/airbnb-logo.png"
+
 export default function HomePage() {
     return (
-        <h1>This is the Beginning</h1>
+        <Header headerLogo={headerLogo} />
     )
 }
